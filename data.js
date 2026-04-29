@@ -11,3 +11,15 @@ export const menuArray = [
         reviews: 210,
         calories: 600
     },
+    {
+        name: "Charred Tiger Prawns with Chimichurri",
+        category: "Starters",
+        ingredients: ["line-caught tiger prawns", "herbaceous chimichurri", "crispy shallot shards"],
+        id: 1,
+        price: 34,
+        image: "images/prawns.jpg",
+        rating: 4.7,
+        reviews: 98,
+        calories: 400
+    },
+    
