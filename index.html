@@ -47,3 +47,20 @@
     <aside class="order-sidebar" id="order-sidebar">
         <!-- Cart items render here via JavaScript -->
     </aside>
+
+    <!-- Payment Modal -->
+    <div class="modal hidden" id="payment-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <h3>Complete Your Order</h3>
+            <form id="payment-form">
+                <input type="text" name="fullName" placeholder="Full Name" required />
+                <input type="tel" name="phone" placeholder="Phone Number" required />
+                <input type="text" name="cardNumber" placeholder="Card Number (16 digits)" pattern="[0-9]{16}" required />
+                <input type="text" name="cvv" placeholder="CVV (3 digits)" pattern="[0-9]{3}" required />
+                <button type="submit" class="pay-btn">
+                    Pay $<span id="final-total">0</span>
+                </button>
+            </form>
+        </div>
+    </div>
