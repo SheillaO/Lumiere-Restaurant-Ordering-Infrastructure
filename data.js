@@ -67,3 +67,14 @@ export const menuArray = [
         reviews: 150,
         calories: 950
     },
+        {
+        name: "Miso-Glazed Atlantic Salmon",
+        category: "Main",
+        ingredients: ["line-caught Atlantic salmon", "white miso glaze", "steamed jasmine rice", "baby bok choy", "scallion oil"],
+        id: 6,
+        price: 90,
+        image: "images/salmon.jpg",
+        rating: 4.7,
+        reviews: 110,
+        calories: 700
+    },
