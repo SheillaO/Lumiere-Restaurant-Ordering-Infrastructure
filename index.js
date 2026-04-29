@@ -1,6 +1,5 @@
 import { menuArray } from "./data.js";
 
-// ─── STATE ────────────────────────────────────────────────────────────────
 let orderArray = [];
 let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 let orderHistory = JSON.parse(localStorage.getItem('orderHistory')) || [];
@@ -92,7 +91,7 @@ function isFavorite(itemId) {
     return favorites.includes(itemId);
 }
 
-// ─── REORDER LAST MEAL ────────────────────────────────────────────────────
+
 
 function handleReorderLast() {
     if (orderHistory.length === 0) {
@@ -352,7 +351,6 @@ document.getElementById("new-order-btn").addEventListener("click", function() {
     render();
 });
 
-// ─── ADVANCED FEATURES ─────────────────────────────────────────────────────
 
 // ─── TASTE PROFILE INTELLIGENCE ───────────────────────────────────────────
 
