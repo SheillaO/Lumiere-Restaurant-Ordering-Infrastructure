@@ -46,6 +46,41 @@ export const menuArray = [
     reviews: 65,
     calories: 250,
   },
+
+  {
+    name: "Roulade of Confit Duck & Foie Gras",
+    category: "Starters",
+    ingredients: [
+      "slow-cooked heritage duck",
+      "white onion & thyme marmalade",
+      "port reduction",
+      "roasted hazelnut shards",
+    ],
+    id: 16,
+    price: 42,
+    image: "images/duck.jpg",
+    rating: 4.8,
+    reviews: 56,
+    calories: 320,
+  },
+
+  {
+    name: "Sundried Tomato & Basil Profiteroles",
+    category: "Starters",
+    ingredients: [
+      "savory choux pastry",
+      "bloody mary couis",
+      "parmesan wafer",
+      "basil oil",
+    ],
+    id: 15,
+    price: 28,
+    image: "images/profiteroles.jpg",
+    rating: 4.4,
+    reviews: 42,
+    calories: 180,
+  },
+
   // 🍔 Mains
   {
     name: "Wagyu Beef Burger with Truffle Emulsion",
@@ -64,6 +99,23 @@ export const menuArray = [
     reviews: 89,
     calories: 920,
   },
+  {
+    name: "The Deconstructed 'Lansdown' English",
+    category: "Main",
+    ingredients: [
+      "oak-smoked bacon chop",
+      "house-made heritage baked beans",
+      "fried quail’s egg",
+      "artisanal brown sauce",
+    ],
+    id: 17,
+    price: 48,
+    image: "images/breakfast.jpg",
+    rating: 4.2,
+    reviews: 115,
+    calories: 550,
+  },
+
   {
     name: "Artisan Wood-Fired Pepperoni Pizza",
     category: "Main",
@@ -198,6 +250,39 @@ export const menuArray = [
     reviews: 130,
     calories: 420,
   },
+  {
+    name: "Pickled & Ice-Filtered Strawberry Consommé",
+    category: "Desserts",
+    ingredients: [
+      "strawberry essence",
+      "baked vanilla cream",
+      "foraged bee pollen",
+      "black pepper meringue 'kisses'",
+    ],
+    id: 19,
+    price: 39,
+    image: "images/strawberry.jpg",
+    rating: 4.3,
+    reviews: 48,
+    calories: 210,
+  },
+
+  {
+    name: "Tea & Cake: An Exploration of Earl Grey",
+    category: "Desserts",
+    ingredients: [
+      "Earl Grey infused pannacotta",
+      "lemon drizzle eggy bread",
+      "raspberry semifreddo",
+      "baked fig purée",
+    ],
+    id: 18,
+    price: 36,
+    image: "images/teacake.jpg",
+    rating: 4.6,
+    reviews: 31,
+    calories: 380,
+  },
 
   // 🍹 Drinks
   {
@@ -241,86 +326,7 @@ export const menuArray = [
     reviews: 99,
     calories: 150,
   },
-  {
-    name: "Sundried Tomato & Basil Profiteroles",
-    category: "Starters",
-    ingredients: [
-      "savory choux pastry",
-      "bloody mary couis",
-      "parmesan wafer",
-      "basil oil",
-    ],
-    id: 15,
-    price: 28,
-    image: "images/profiteroles.jpg",
-    rating: 4.4,
-    reviews: 42,
-    calories: 180,
-  },
-  {
-    name: "Roulade of Confit Duck & Foie Gras",
-    category: "Starters",
-    ingredients: [
-      "slow-cooked heritage duck",
-      "white onion & thyme marmalade",
-      "port reduction",
-      "roasted hazelnut shards",
-    ],
-    id: 16,
-    price: 42,
-    image: "images/duck.jpg",
-    rating: 4.8,
-    reviews: 56,
-    calories: 320,
-  },
-  {
-    name: "The Deconstructed 'Lansdown' English",
-    category: "Main",
-    ingredients: [
-      "oak-smoked bacon chop",
-      "house-made heritage baked beans",
-      "fried quail’s egg",
-      "artisanal brown sauce",
-    ],
-    id: 17,
-    price: 48,
-    image: "images/breakfast.jpg",
-    rating: 4.2,
-    reviews: 115,
-    calories: 550,
-  },
-  {
-    name: "Tea & Cake: An Exploration of Earl Grey",
-    category: "Desserts",
-    ingredients: [
-      "Earl Grey infused pannacotta",
-      "lemon drizzle eggy bread",
-      "raspberry semifreddo",
-      "baked fig purée",
-    ],
-    id: 18,
-    price: 36,
-    image: "images/teacake.jpg",
-    rating: 4.6,
-    reviews: 31,
-    calories: 380,
-  },
-  {
-    name: "Pickled & Ice-Filtered Strawberry Consommé",
-    category: "Desserts",
-    ingredients: [
-      "strawberry essence",
-      "baked vanilla cream",
-      "foraged bee pollen",
-      "black pepper meringue 'kisses'",
-    ],
-    id: 19,
-    price: 39,
-    image: "images/strawberry.jpg",
-    rating: 4.3,
-    reviews: 48,
-    calories: 210,
-  },
+
   {
     name: "Pressed Garden Mint & Pea Infusion",
     category: "Drinks",
@@ -337,3 +343,4 @@ export const menuArray = [
     calories: 80,
   },
 ];
+
