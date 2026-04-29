@@ -149,4 +149,15 @@ export const menuArray = [
         reviews: 45,
         calories: 180
     },
+     {
+        name: "Pressed Lemon & Garden Mint Refresher",
+        category: "Drinks",
+        ingredients: ["freshly pressed lemon juice", "organic cane sugar", "garden mint leaves"],
+        id: 13,
+        price: 15,
+        image: "images/lemonade.jpg",
+        rating: 4.6,
+        reviews: 88,
+        calories: 120
+    },
 
