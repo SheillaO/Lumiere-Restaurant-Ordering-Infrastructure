@@ -78,3 +78,75 @@ export const menuArray = [
         reviews: 110,
         calories: 700
     },
+      {
+        name: "Sesame Tofu & Garden Vegetable Fried Rice",
+        category: "Main",
+        ingredients: ["crispy tofu", "jasmine rice", "seasonal greens", "toasted sesame seeds", "spiced cashews", "peanut dressing"],
+        id: 7,
+        price: 26,
+        image: "images/friedrice.jpg",
+        rating: 4.5,
+        reviews: 72,
+        calories: 650
+    },
+    
+    // 🍟 Sides
+    {
+        name: "Hand-Cut Truffle Fries",
+        category: "Sides",
+        ingredients: ["triple-cooked potatoes", "truffle oil", "sea salt flakes", "signature house sauce"],
+        id: 8,
+        price: 20,
+        image: "images/fries.jpg",
+        rating: 4.6,
+        reviews: 140,
+        calories: 400
+    },
+      {
+        name: "Baked Macaroni with Smoked Gouda",
+        category: "Sides",
+        ingredients: ["artisan pasta", "smoked gouda béchamel", "crispy prosciutto", "chive garnish"],
+        id: 9,
+        price: 45,
+        image: "images/mac.jpg",
+        rating: 4.8,
+        reviews: 102,
+        calories: 550
+    },
+    // 🍰 Desserts
+    {
+        name: "Molten Dark Chocolate Lava Cake",
+        category: "Desserts",
+        ingredients: ["70% dark chocolate", "cultured butter", "Madagascar vanilla", "warm chocolate core"],
+        id: 10,
+        price: 37,
+        image: "images/lava.jpg",
+        rating: 4.9,
+        reviews: 200,
+        calories: 450
+    },
+    {
+        name: "Classic New York Vanilla Cheesecake",
+        category: "Desserts",
+        ingredients: ["cream cheese filling", "Madagascar vanilla bean", "buttery biscuit crust"],
+        id: 11,
+        price: 29,
+        image: "images/cheesecake.jpg",
+        rating: 4.7,
+        reviews: 130,
+        calories: 420
+    },
+
+    // 🍹 Drinks
+    {
+        name: "Craft Small-Batch Golden Ale",
+        category: "Drinks",
+        ingredients: ["locally milled grains", "aromatic noble hops", "spring mineral water"],
+        id: 12,
+        price: 15,
+        image: "images/beer.jpg",
+        rating: 4.7,
+        reviews: 45,
+        calories: 180
+    },
+
