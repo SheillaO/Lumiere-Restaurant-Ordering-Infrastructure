@@ -1,9 +1,14 @@
 # Lumière — Restaurant Ordering Infrastructure
  
 A zero-friction food ordering application addressing the $200B global delivery market's core inefficiencies: hidden fees, discovery paralysis, and checkout abandonment. Built with vanilla JavaScript to demonstrate product-market fit validation and technical execution depth.
+
+<img width="893" height="757" alt="Lumiere" src="https://github.com/user-attachments/assets/2ed0d747-3f72-4fc2-9a10-9d336bfeb5ee" />
+
  
 <br>
-[**🚀 Live Demo**](https://lumiere-restaurant.netlify.app/) | [**📂 View Codebase**](https://github.com/SheillaO/Lumiere-Restaurant-App)
+
+
+[**🚀 Live Demo**](https://lumiererestaurantorderingapp.netlify.app/) | [**📂 View Codebase**](https://github.com/SheillaO/Lumiere-Restaurant-Ordering-Infrastructure)
  
 ---
 
@@ -283,15 +288,11 @@ python3 -m http.server 8000
  
 ## Architecture Benefits
  
-**For recruiters evaluating product thinking:**
- 
 ✅ **Market research** — Identified 4 validated pain points through competitor audits  
 ✅ **Competitive positioning** — "Transparent luxury" vs "hidden fee gig economy"  
 ✅ **User empathy** — Allergen filtering addresses 62M Americans with food allergies  
 ✅ **Scalability awareness** — LocalStorage → optional cloud sync roadmap  
 ✅ **Global market consideration** — Works on 2G networks for emerging markets
- 
-**For developers evaluating technical depth:**
  
 ✅ **Vanilla JavaScript mastery** — 500+ lines, 35+ functions, zero framework dependencies  
 ✅ **Data structures** — Allergen database, frequency analysis, category filtering  
