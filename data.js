@@ -45,3 +45,25 @@ export const menuArray = [
         reviews: 89,
         calories: 920
     },
+    {
+        name: "Artisan Wood-Fired Pepperoni Pizza",
+        category: "Main",
+        ingredients: ["house-fermented dough", "San Marzano tomato sauce", "buffalo mozzarella", "spiced pepperoni", "fresh basil"],
+        id: 4,
+        price: 32,
+        image: "images/pizza.jpg",
+        rating: 4.8,
+        reviews: 124,
+        calories: 850
+    },
+    {
+        name: "Classic Beef Wellington with Red Wine Jus",
+        category: "Main",
+        ingredients: ["prime beef tenderloin", "wild mushroom duxelles", "golden puff pastry", "red wine reduction"],
+        id: 5,
+        price: 80,
+        image: "images/wellington.jpg",
+        rating: 4.9,
+        reviews: 150,
+        calories: 950
+    },
